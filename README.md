@@ -1,19 +1,18 @@
-## Some scripts for extracting data from FreezeFrame data files
 
-### Requirement
-- python3
-- ffmpeg for ffii2vid.py
+### Requirements
+- `python3`
+- `ffmpeg` for ffii2vid.py
 
 ### ffii2vid.py
 
-Converts ffii file to video. Frame rate defaults to "15/4". 
+Converts ffii file to video. Frame rate defaults to `15/4`. 
 
 #### Usage:
 ```
 python ffii2vid.py INPUT OUTPUT [frame rate]
 ```
 #### Example:
-Convert train1.ffii into webm format, at frame rate of 5fps.
+Convert train1.ffii into webm format, at frame rate of 5 fps.
 ```
 python ffii2vid.py train1.ffii train1.webm 5
 ```
